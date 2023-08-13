@@ -4,6 +4,7 @@ const express = require('express');
 const router = express.Router();
 
 // Load Book model
+// Was an incorrect code path
 const Book = require('../../models/Book');
 
 // @route GET api/books/test

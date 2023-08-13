@@ -5,6 +5,7 @@ const connectDB = require('./config/db');
 const cors = require('cors');
 
 // routes
+// Was not included in tutorial
 const books = require('./routes/api/books');
 
 const app = express();

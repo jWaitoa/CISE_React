@@ -1,0 +1,12 @@
+{
+  "extends": ["airbnb", "react-app", "react-app/jest", "prettier", "plugin:node/recommended"],
+    "rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": "warn",
+    "no-console": "off",
+    "func-names": "off",
+    "no-process-exit": "off",
+    "object-shorthand": "off",
+    "class-methods-use-this": "off"
+  }
+}
